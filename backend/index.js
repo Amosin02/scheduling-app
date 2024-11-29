@@ -5,6 +5,7 @@ import dotenv from 'dotenv';
 import dataRoute from './routes/dataRoute.js';
 
 dotenv.config();
+
 const app = express();
 const port = 5001;
 const dbUri = process.env.URI;
